@@ -30,7 +30,7 @@ function Login() {
 
         <form className="space-y-4" onSubmit={(e) => {
             e.preventDefault();
-            alert('A autenticação segura com banco de dados será conectada em breve.');
+            navigate({ to: '/dashboard' });
         }}>
           <div className="space-y-4">
             <div>

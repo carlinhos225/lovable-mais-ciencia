@@ -32,7 +32,7 @@ function PrimeiroAcesso() {
 
         <form className="space-y-4" onSubmit={(e) => {
             e.preventDefault();
-            alert('Funcionalidade de validação no banco de dados será conectada em breve. O token único é a base da arquitetura.');
+            navigate({ to: '/dashboard' });
         }}>
           <div className="space-y-2">
             <label htmlFor="token" className="block text-sm font-medium text-gray-700">
