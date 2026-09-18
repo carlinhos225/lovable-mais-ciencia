@@ -4,6 +4,10 @@ import path from "path";
 import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 
 export default defineConfig({
+  server: {
+    host: "::",
+    port: 8080,
+  },
   plugins: [react(), TanStackRouterVite()],
   resolve: {
     alias: {
